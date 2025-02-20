@@ -35,17 +35,3 @@ gsap.to("#colone2", {
     x: 0, // Position finale
     duration: 2,
 });
-gsap.to("#img3", {
-    duration: 5,
-    scrollTrigger: {
-        trigger: "",
-        start: "top 100%",
-        end: "top 0%",
-        scrub: 1,
-        markers: true,
-    },
-    motionPath: {
-    path: "M167.22.2c-65.17,147.93-156.4,535.29,0,901.26,156.4,365.97,65.17,779.06,0,939.85-75.67,202.56-181.6,684.08,0,989.72,181.6,305.64,75.67,912.64,0,1177.93-76.29,267.47-333.6,879.41,0,1340.61",
-    autoRotate: true
-    }
-});
